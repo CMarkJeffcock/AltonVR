@@ -1,0 +1,11 @@
+Model Information:
+* title:	Alton Station
+* source:	https://sketchfab.com/3d-models/alton-station-26d486b1cc1f4e949ceda5063de12859
+* author:	Mark.Jeffcock (https://sketchfab.com/Mark.Jeffcock)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Alton Station" (https://sketchfab.com/3d-models/alton-station-26d486b1cc1f4e949ceda5063de12859) by Mark.Jeffcock (https://sketchfab.com/Mark.Jeffcock) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
