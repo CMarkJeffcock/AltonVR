@@ -619,7 +619,6 @@ GameObject:
   - component: {fileID: 403545505}
   - component: {fileID: 403545504}
   - component: {fileID: 403545503}
-  - component: {fileID: 403545507}
   m_Layer: 0
   m_Name: LeftHand Controller
   m_TagString: Untagged
@@ -965,7 +964,8 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 0}
+  m_ModelPrefab: {fileID: 8270855663187062767, guid: 5b158b94c373d4b4f9e98cdb92789343,
+    type: 3}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
@@ -1128,21 +1128,6 @@ MonoBehaviour:
     m_Reference: {fileID: 7779212132400271959, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   m_ButtonPressPoint: 0.5
---- !u!114 &403545507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 403545501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 997f11f97e555874c89408b43f4dac09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  handPrefab: {fileID: 1278990032171849736, guid: 72a2efc579441c54295e3178818b3517,
-    type: 3}
-  inputDeviceCharacteristics: 320
 --- !u!1 &450985473
 GameObject:
   m_ObjectHideFlags: 0
