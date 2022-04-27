@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: vsOurHand
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[{"name":"ourHandAnimator","value":null,"typeHandle":{"Identification":"UnityEngine.Animator,
+      UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ourDevice","value":{"$type":"UnityEngine.XR.InputDevice"},"typeHandle":{"Identification":"UnityEngine.XR.InputDevice,
+      UnityEngine.XRModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"vsOurHand","summary":"OurHand
+      c# script recreated in Visual Script","pan":{"x":0.0,"y":87.51074},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-683.0,"y":-356.0},"guid":"a4fdb10f-339e-410d-ac3c-c7ca3e1ca989","$version":"A","$type":"Unity.VisualScripting.Start","$id":"11"},{"coroutine":false,"defaultValues":{},"position":{"x":-688.0,"y":13.0},"guid":"c58fcb2e-9212-48ad-8821-d064dc9b5767","$version":"A","$type":"Unity.VisualScripting.Update"},{"inputCount":2,"defaultValues":{},"position":{"x":-302.0,"y":-45.0},"guid":"77b30910-288d-49ea-b910-531611278833","$version":"A","$type":"Unity.VisualScripting.CreateList","$id":"15"},{"defaultValues":{"index":{"$content":0,"$type":"System.Int32"}},"position":{"x":-48.0,"y":-55.0},"guid":"4cd9c192-18a5-446a-b211-9a64af8567b4","$version":"A","$type":"Unity.VisualScripting.GetListItem","$id":"17"},{"kind":"Graph","defaultValues":{"name":{"$content":"","$type":"System.String"}},"position":{"x":150.0,"y":-85.0},"guid":"2e1cb45c-0113-4c01-b505-9598fdf3e4f8","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"19"},{"chainable":false,"member":{"name":"Instantiate","parameterTypes":["UnityEngine.Object"],"targetType":"UnityEngine.Component","targetTypeName":"UnityEngine.Component","$version":"A"},"defaultValues":{"%original":null},"position":{"x":-256.0,"y":-357.0},"guid":"5a1a1cbd-29d7-432c-80d1-e9bc149e86ec","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"21"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"ourHandPrefab","$type":"System.String"},"object":null},"position":{"x":-684.0,"y":-225.0},"guid":"d43c0283-1556-49b8-9f87-771257b9a6f4","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"24"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"21"},"destinationKey":"enter","guid":"4edd9e2c-0d80-4827-968a-b7a13be3a05e","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"list","destinationUnit":{"$ref":"17"},"destinationKey":"list","guid":"f64213b7-8dc7-40a8-9f33-d7a4a9861cc7","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"item","destinationUnit":{"$ref":"19"},"destinationKey":"name","guid":"3feb6059-65f2-42b1-9d46-7d07762e6bb8","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"24"},"sourceKey":"value","destinationUnit":{"$ref":"21"},"destinationKey":"%original","guid":"c3b073a0-7c0b-48ba-be94-4102eebeb511","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
