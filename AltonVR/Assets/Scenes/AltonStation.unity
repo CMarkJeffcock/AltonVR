@@ -3136,9 +3136,13 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"ourHandPrefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ourControllerCharacteristics","value":{"$content":"Controller,Right","$type":"UnityEngine.XR.InputDeviceCharacteristics"},"typeHandle":{"Identification":"UnityEngine.XR.InputDeviceCharacteristics,
-      UnityEngine.XRModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.XRModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ourHandAnimator","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.RuntimeAnimatorController,
+      UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"parentHand","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 9216376709634789782, guid: 9b2e343f03425034692f107a67c5a43a, type: 3}
+    - {fileID: 9100000, guid: 5ee12ea7b883924419468fd7b2205b1d, type: 2}
+    - {fileID: 1983619526}
 --- !u!114 &1983619535
 MonoBehaviour:
   m_ObjectHideFlags: 0
