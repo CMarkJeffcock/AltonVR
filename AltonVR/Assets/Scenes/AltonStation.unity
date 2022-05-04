@@ -3091,7 +3091,7 @@ GameObject:
   - component: {fileID: 1844953119}
   - component: {fileID: 1844953118}
   - component: {fileID: 1844953121}
-  m_Layer: 10
+  m_Layer: 14
   m_Name: Plane Gravel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3752,7 +3752,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1024
+    m_Bits: 4294967295
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 0}
