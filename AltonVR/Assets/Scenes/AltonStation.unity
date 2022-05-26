@@ -711,6 +711,8 @@ GameObject:
   - component: {fileID: 403545504}
   - component: {fileID: 403545503}
   - component: {fileID: 403545507}
+  - component: {fileID: 403545509}
+  - component: {fileID: 403545508}
   m_Layer: 0
   m_Name: LeftHand Controller
   m_TagString: Untagged
@@ -1226,7 +1228,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403545501}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d952e30288fe584fb565a59b2e80d92, type: 3}
   m_Name: 
@@ -1234,6 +1236,41 @@ MonoBehaviour:
   ourHandPrefab: {fileID: 7774242605301862992, guid: f60e2d3b2c000a5458e0cd440643382b,
     type: 3}
   ourControllerCharacteristics: 320
+--- !u!114 &403545508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403545501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 9f24413cc5e11e14faa3872306e5fc3b, type: 2}
+--- !u!114 &403545509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403545501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"ourHandPrefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"parentHand","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 7774242605301862992, guid: f60e2d3b2c000a5458e0cd440643382b, type: 3}
+    - {fileID: 403545501}
 --- !u!1 &450985473
 GameObject:
   m_ObjectHideFlags: 0
@@ -3145,7 +3182,7 @@ Transform:
   m_LocalRotation: {x: -0.04534962, y: -0.3671215, z: 0.014680572, w: 0.9289509}
   m_LocalPosition: {x: 0.0009999999, y: -0.66, z: -0.001000001}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 450985474}
   m_RootOrder: 5
