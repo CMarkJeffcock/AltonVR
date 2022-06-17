@@ -371,6 +371,37 @@ Transform:
   m_Father: {fileID: 1434468895}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -3.884, y: 93.02, z: -0.199}
+--- !u!1 &208840990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 208840991}
+  m_Layer: 0
+  m_Name: Axe Grip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &208840991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208840990}
+  m_LocalRotation: {x: 0.027322158, y: 0.73335165, z: -0.67795503, w: -0.04272914}
+  m_LocalPosition: {x: -3.8870883, y: 15.999649, z: 2.4495378}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1205904958}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 82.759, y: 232.288, z: 51.038}
 --- !u!1 &212567395
 GameObject:
   m_ObjectHideFlags: 0
@@ -2297,37 +2328,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1026783142
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1026783143}
-  m_Layer: 0
-  m_Name: Axe Grip
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1026783143
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1026783142}
-  m_LocalRotation: {x: 0.004034179, y: 0.7027228, z: -0.7104414, w: -0.037914738}
-  m_LocalPosition: {x: 6.3, y: 14.7, z: 13.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1205904958}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 86.544, y: -78.201, z: -260.948}
 --- !u!1 &1056326304
 GameObject:
   m_ObjectHideFlags: 0
@@ -2579,7 +2579,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161202899}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.12, y: 0, z: 0.1}
+  m_LocalPosition: {x: 0, y: 0.01, z: 0.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2948,7 +2948,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 1026783143}
+  m_AttachTransform: {fileID: 208840991}
   m_AttachEaseInTime: 0.15
   m_MovementType: 2
   m_VelocityDamping: 1
