@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PourWine : MonoBehaviour
 {
-    public int pourThreshold = 90;
+    
     public GameObject wineStream;
     public Transform wineBottle;
     public Transform bottleTop;
@@ -23,11 +23,11 @@ public class PourWine : MonoBehaviour
 
         if ((bottleTopHeight-bottleMidHeight) > 0)
         {
-            pourCheck = false;
+            pourCheck = true;
         }
         else
         {
-            pourCheck = true;
+            pourCheck = false;
         }
 
         if(isPouring != pourCheck)
