@@ -944,7 +944,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 98923186}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1582745433}
+        m_TargetAssemblyTypeName: FireAxe, Assembly-CSharp
+        m_MethodName: CreateFireAxe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &98923186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3517,52 +3529,52 @@ PrefabInstance:
     - target: {fileID: 428074811062912359, guid: d4c6fbfe04fcd7b479ab1fdb3c7fe9ee,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.821
+      value: -0.797
       objectReference: {fileID: 0}
     - target: {fileID: 428074811062912359, guid: d4c6fbfe04fcd7b479ab1fdb3c7fe9ee,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.724
+      value: -4.749
       objectReference: {fileID: 0}
     - target: {fileID: 428074811062912359, guid: d4c6fbfe04fcd7b479ab1fdb3c7fe9ee,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.648
+      value: 5.276
       objectReference: {fileID: 0}
     - target: {fileID: 428074811062912359, guid: d4c6fbfe04fcd7b479ab1fdb3c7fe9ee,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.28647035
+      value: 0.7089463
       objectReference: {fileID: 0}
     - target: {fileID: 428074811062912359, guid: d4c6fbfe04fcd7b479ab1fdb3c7fe9ee,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.2377156
+      value: -0.24124965
       objectReference: {fileID: 0}
     - target: {fileID: 428074811062912359, guid: d4c6fbfe04fcd7b479ab1fdb3c7fe9ee,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5980957
+      value: -0.04726412
       objectReference: {fileID: 0}
     - target: {fileID: 428074811062912359, guid: d4c6fbfe04fcd7b479ab1fdb3c7fe9ee,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7097236
+      value: 0.66102946
       objectReference: {fileID: 0}
     - target: {fileID: 428074811062912359, guid: d4c6fbfe04fcd7b479ab1fdb3c7fe9ee,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -80.118
+      value: -16.235
       objectReference: {fileID: 0}
     - target: {fileID: 428074811062912359, guid: d4c6fbfe04fcd7b479ab1fdb3c7fe9ee,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 1.752
+      value: -23.703
       objectReference: {fileID: 0}
     - target: {fileID: 428074811062912359, guid: d4c6fbfe04fcd7b479ab1fdb3c7fe9ee,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 134.565
+      value: 89.422
       objectReference: {fileID: 0}
     - target: {fileID: 5755950740464867602, guid: d4c6fbfe04fcd7b479ab1fdb3c7fe9ee,
         type: 3}
@@ -4847,6 +4859,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1582745431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1582745432}
+  - component: {fileID: 1582745433}
+  m_Layer: 0
+  m_Name: FireAxeParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1582745432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582745431}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.6934807, y: -0.136, z: -0.98}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1582745433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582745431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0386d939010015445ba8558d98083ec2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireAxePrefab: {fileID: 2184830359299075695, guid: 2271b072018a34842b2b3416cb0c9e74,
+    type: 3}
 --- !u!1 &1600592117
 GameObject:
   m_ObjectHideFlags: 0
@@ -5226,7 +5284,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Fire Axe
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
